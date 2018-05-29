@@ -6,12 +6,14 @@ let polylines = [];
 let snappedCoordinates = [];
 const apiBaseUrl = "https://maps.googleapis.com/maps/api/js?libraries=drawing,places&key="
 let locked = true;
+
 const button = document.querySelectorAll("button")[0];
 // @TODO Overlay login/logout button
 // const bigButton = document.querySelectorAll("button")[1];
 // const overlay = document.querySelectorAll(".overlay")[0];
 
 console.log('javascript')
+console.log("button", button)
 
 function getIsLocked() {
   return locked;

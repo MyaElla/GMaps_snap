@@ -1,0 +1,64 @@
+html, body, #map {
+  height: 100%;
+  margin: 0px;
+  padding: 10px
+}
+/* @TODO overlay login/logout button  */
+/* .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: black;
+  z-index: 100;
+  opacity: 0.5;
+} */
+.bigButton {
+/* @TODO overlay login/logout button  */
+/*   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.instruction {
+  font-size: 4em;
+  color: grey;
+  background-color: white;
+  opacity: 1;
+}
+
+header {
+  text-align: right;
+}
+
+#panel {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  margin-left: -180px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+}
+
+#bar {
+  width: 240px;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin: 8px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+#autoc {
+  width: 100%;
+  box-sizing: border-box;
+}
